@@ -668,7 +668,99 @@ JavaScript
 
 <!-- end_slide -->
 
+## Pozwólcie im gotować!
 
+Wspaniałe programy, narzędzia i biblioteki napisane w Rust!
+===
+
+![image:width:100%](assets/crab.gif)
+
+<!-- end_slide -->
+
+## Wezterm
+
+![image:width:100%](assets/wezterm.png)
+
+<!-- end_slide -->
+
+## Zellij 
+
+![image:width:40%](assets/zellij.png)
+
+![image:width:100%](assets/zellij-demo.gif)
+
+<!-- end_slide -->
+
+## ncspot 
+
+![image:width:100%](assets/ncspot.png)
+
+<!-- end_slide -->
+
+## ripgrep
+
+<!-- new_lines: 3 -->
+
+![image:width:100%](assets/ripgrep_results.png)
+
+<!-- end_slide -->
+
+## RMK
+
+![image:width:10%](assets/rmk.png)
+
+<!-- new_lines: 3 -->
+
+<!-- column_layout: [3, 3] -->
+
+<!-- column: 0 -->
+
+![image:width:100%](assets/rmk_ble_keyboard.jpg)
+
+<!-- column: 1 -->
+
+![image:width:100%](assets/skeleton-prototype.jpg)
+
+<!-- end_slide -->
+
+## MartyPC
+
+![image:width:100%](assets/marty_pc.png)
+
+<!-- end_slide -->
+
+## Ruffle
+
+![image:width:100%](assets/ruffle.png)
+
+<!-- end_slide -->
+
+## Helix Editor
+
+![image:width:100%](assets/helix.png)
+
+<!-- end_slide -->
+
+## Zed Editor
+
+![image:width:100%](assets/zed.png)
+
+<!-- end_slide -->
+
+## Ratatui
+
+![image:width:100%](assets/ratatui.gif)
+
+<!-- end_slide -->
+
+# More awesome software 😎
+
+<!-- jump_to_middle -->
+
+![image:width:100%](assets/awesome_rust.png)
+
+https://github.com/rust-unofficial/awesome-rust
+===
 
 <!-- end_slide -->
 
