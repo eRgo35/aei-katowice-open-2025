@@ -129,7 +129,6 @@ typst:
 
 footer:
   style: template
-  left: "@eRgo35"
   right: "{current_slide} / {total_slides}"
 
 modals:
