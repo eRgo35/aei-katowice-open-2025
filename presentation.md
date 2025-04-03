@@ -204,7 +204,9 @@ main.c:4:8: note: destination object ‘buffer’ of size 10
 
 Ale chwila! Przecież `gcc` też nas ostrzega!
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Bezpieczeństwo
 
 ```bash
 ❯ ./main
@@ -231,7 +233,9 @@ int main() {
 
 ```
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Bezpieczeństwo
 
 ```bash
 ❯ gcc main.c -o main
@@ -258,7 +262,9 @@ fn main() {
 }
 ```
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Bezpieczeństwo
 
 ```bash
 ❯ cargo run
@@ -297,7 +303,9 @@ fn main() {
 }
 ```
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Bezpieczeństwo
 
 ### Brak pustych wskaźników - zamiast tego mamy typ `Option`
 
@@ -369,13 +377,15 @@ Funkcje wysokopoziomowe wcale nie muszą być wolne!
 
 ```rust 
 fn main() {
-    let numbers = vec![1, 2, 3, 4, 5];
+    let numbers = vec![1, 2, 3];
     let sum: i32 = numbers.iter().sum();
     println!("Suma: {}", sum);
 }
 ```
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Wydajność vs Wygoda
 
 Statements vs. Expressions
 ===
@@ -415,7 +425,9 @@ Iteratory
 names.iter().filter(|x| x.starts_with("A"))
 ```
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Wydajność vs Wygoda
 
 Opcje
 ===
@@ -447,6 +459,14 @@ struct Event {
   status: Status,
 }
 ```
+
+<!-- end_slide -->
+
+## Wydajność vs Wygoda
+
+System struktur i typów enumerowanych
+===
+
 ```rust 
 let wykład = Event {
   name: String::from("Nie taki zardzewiały jak myślisz - odkryj potencjał Rusta"),
@@ -470,6 +490,13 @@ const data = await response.json();
 console.log(data);
 ```
 
+<!-- end_slide -->
+
+## Wydajność vs Wygoda
+
+Asynchroniczność
+===
+
 ```rust 
 let response = reqwest::get("https://api.example.com/data")
     .await
@@ -491,6 +518,10 @@ fn main() {
     printline!("Hello world!");
 }
 ```
+
+<!-- end_slide -->
+
+## Kompilator
 
 ```bash 
 ❯ cargo run
@@ -515,7 +546,9 @@ error: could not compile `playground` (bin "playground") due to 1 previous error
 
 ![](assets/crates.png)
 
-<!-- pause -->
+<!-- end_slide -->
+
+## Ekosystem
 
 ```bash 
 ❯ cargo add <nazwa_pakietu>
